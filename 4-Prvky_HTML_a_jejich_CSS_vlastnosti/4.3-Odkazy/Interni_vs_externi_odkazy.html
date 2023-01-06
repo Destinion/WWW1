@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Odkazy interní a externí</title>
+    <style>
+        a {
+            color: #0000ff;
+            text-decoration: none;
+        }
+        a:hover {
+            color: #ff0000;
+            text-decoration: underline;
+        }
+        a:active {
+            color: #00ff00;
+        }
+    </style>
+</head>
+<body>
+    <p>
+        <a href="http://www.google.com">Tohle je externí odkaz na Google.com</a>
+    </p>
+
+
+    <p>
+        <a href="#interni_odkaz">Tohle je interní odkaz na prvek s id #interni_odkaz</a>
+    </p>
+    <br>
+    <div id="interni_odkaz">
+        <p>
+            Tohle je prvek s id #interni_odkaz, na který odkazuje interní odkaz.
+        </p>
+    </div>
+</body>
+</html>
