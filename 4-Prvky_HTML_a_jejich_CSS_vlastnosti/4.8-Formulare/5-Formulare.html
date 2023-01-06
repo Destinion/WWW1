@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formuláře - 5</title>
+	<meta charset="utf-8">
+    <style>
+        select {
+            display: block;
+            margin-bottom: 10px;
+        }
+        form {
+            width: 400px;
+            margin: 0 auto;
+        }
+    </style>
+    
+</head>
+<body>
+    <h1>Skupiny položek</h1>
+
+	<h2>Vítejte v našem autosalonu</h2>
+	<p>Vyberte si z nabídky našich vozů prvotřídní kvality:</p>
+	
+	<form>
+		<select name="Automobily">
+			<option selected value="žádný">žádný se mi nelíbí</option>
+			<optgroup label="VW">
+				<option value="Passat">Passat - benzín</option>
+				<option value="Bora">Bora - diesel</option>
+				<option value="Golf">Golf - benzín</option>
+			</optgroup>
+			<optgroup label="Renault">
+				<option value="Laguna">Laguna - benzín</option>
+				<option value="Megane">Megane - benzín</option>
+			</optgroup>
+			<optgroup label="Ford">
+				<option label="Focus" value="Focus">Focus - benzín</option>
+				<option label="Escort" value="Escort">Escort - diesel</option>
+				<option label="Tranzit" value="Tranzit">Tranzit - diesel</option>
+			</optgroup>
+		</select>
+	</form>
+</body>
+</html>

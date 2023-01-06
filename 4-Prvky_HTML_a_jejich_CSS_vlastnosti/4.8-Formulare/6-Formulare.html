@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formuláře - 6</title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<h1>Používání atributu <b>pattern</b></h1>
+    
+	<form action="pripominky.php" method="post">
+		Jméno:<br><input type="edit"><br><br>
+		Příjmení:<br><input type="edit"><br><br>
+		RČ:<br><input type="edit" placeholder="Rodné číslo" title="XXXXXX/XXXX"
+		pattern="[0-9]{6}/[0-9]{3,4}"><br><br>
+		Adresa:<br><input type="edit"><br><br>
+		PSČ:<br><input type="edit" placeholder="Poštovní směrovací číslo" title="XXX XX"
+		pattern="[0-9]{3} [0-9]{2}"><br><br>
+		<button type="submit" autofocus="on">Odeslat</button>
+	</form>
+</body>
+</html>

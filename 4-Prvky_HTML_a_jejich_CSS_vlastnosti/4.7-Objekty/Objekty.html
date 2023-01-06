@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Objekty</title>
+    <style>
+        img {
+            width: 200px;
+            height: 200px;
+        }
+        object {
+            width: 200px;
+            height: 200px;
+        }
+
+        iframe {
+            width: 200px;
+            height: 200px;
+        }
+        video {
+            width: 200px;
+            height: 200px;
+        }
+
+        audio {
+            width: 200px;
+            height: 200px;
+        }
+
+    </style>
+</head>
+<body>
+    <img src="https://www.w3schools.com/images/w3schools_green.jpg" alt="W3Schools.com" />
+    <object data="https://www.w3schools.com/images/w3schools_green.jpg" type="image/jpg">
+        <img src="https://www.w3schools.com/images/w3schools_green.jpg" alt="W3Schools.com" />
+    </object>
+
+    <!--Další objekty-->
+    <h1>iframe</h1>
+    <iframe style="border:none" src="https://frame.mapy.cz/s/gezagurase" width="400" height="280" frameborder="0"></iframe>
+    <h1>video</h1>
+    <video width="320" height="240" controls>
+        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+        <source src="https://www.w3schools.com/html/mov_bbb.ogg" type="video/ogg">
+        Your browser does not support the video tag.
+    </video>
+    <h1>audio</h1>
+    <audio controls>
+        <source src="https://www.w3schools.com/html/horse.ogg" type="audio/ogg">
+        <source src="https://www.w3schools.com/html/horse.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+</body>
+</html>

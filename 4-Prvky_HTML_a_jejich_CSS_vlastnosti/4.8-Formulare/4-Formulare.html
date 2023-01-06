@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formuláře 4</title>
+	<meta charset="utf-8">
+    <style>
+        select {
+            display: block;
+            margin-bottom: 10px;
+        }
+        form {
+            width: 400px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+	<h2>Seznamy v kouzelnickém obchodě</h2>
+	<form>
+		Z následujícího seznamu si můžete vybrat zboží, které si chcete objednat:
+		<br><br>
+		<select name="Zbozi" size="4" multiple>
+			<option value="Černá kočka">Černá kočka</option>
+			<option value="Kouzelná hůlka">Kouzelná hůlka</option>
+			<option value="Křišťálová koule">Křišťálová koule</option>
+			<option value="Létající koště">Létající koště</option>
+			<option value="Neviditelný plášť">Neviditelný plášť</option>
+		</select>
+		<br>
+		Způsob doručení:
+		<select name="Doruceni" size="1">
+			<option value="Donáška">Donáška</option>
+			<option value="Soví pošta" selected>Soví pošta</option>
+			<option value="Dobírka">Dobírka</option>
+		</select>
+		<br><br>
+		<input type="submit" name="Odeslat" value="Objednat">
+	</form>
+</body>
+</html>
