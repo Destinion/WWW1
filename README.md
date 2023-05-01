@@ -1,2 +1,2 @@
 # WWW1
- New guide - combining HTML5&CSS3
+ Podklady pro 1. ročník předmětu WWW
