@@ -1,0 +1,43 @@
+<html>
+  <head>
+    <title>Import nového fontu do dokumentu</title>
+    <meta charset="UTF-8">
+    
+    <style>
+      /*Definování vlastního fontu*/
+      @font-face{
+        font-family: 'muj-font';
+        src: url('cesta/k/memu/fontu.ttf') format('truetype');
+      }
+      
+      p.vlastni_font{
+        font-family: "muj-font", sans-serif;
+      }
+      
+      /*Běžné fonty*/
+      p.obecny_font{
+        font-family: "Times New Roman", "Arial", serif;
+      }
+      
+      /*Import fontu*/
+      @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+      /*Aplikace google fontu*/
+      p.google_font{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 800;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <p class="vlastni_font">
+      Ukázka vlastního fontu
+    </p>
+    <p class="vlastni_font">
+      Ukázka obecného fontu
+    </p>
+    <p class="google_font">
+      Ukázka fontu z googlefonts
+    </p>
+  </body>
+</html>
